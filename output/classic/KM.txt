@@ -1,9 +1,0 @@
-# KM
-# Generated: 2026-04-08T06:29:12.874261
-# Source: netpatch/groups_for_netpatch_firewall
-
-# IP CIDRs
-IP-CIDR,102.207.176.0/22
-IP-CIDR,102.223.120.0/22
-IP-CIDR,164.160.136.0/22
-IP-CIDR,197.255.224.0/20

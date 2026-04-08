@@ -1,6 +1,0 @@
-# AX
-# Generated: 2026-04-08T06:29:12.834386
-# Source: netpatch/groups_for_netpatch_firewall
-
-payload:
-  - IP-CIDR,217.29.224.0/20

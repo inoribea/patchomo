@@ -1,9 +1,0 @@
-# PW
-# Generated: 2026-04-08T06:29:12.893457
-# Source: netpatch/groups_for_netpatch_firewall
-
-payload:
-  - IP-CIDR,103.30.248.0/22
-  - IP-CIDR,103.159.28.0/23
-  - IP-CIDR,103.251.132.0/23
-  - IP-CIDR,202.124.224.0/20

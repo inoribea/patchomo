@@ -1,6 +1,0 @@
-# KP
-# Generated: 2026-04-08T06:29:12.874553
-# Source: netpatch/groups_for_netpatch_firewall
-
-payload:
-  - IP-CIDR,175.45.176.0/22

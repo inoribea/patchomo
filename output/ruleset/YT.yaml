@@ -1,6 +1,0 @@
-# YT
-# Generated: 2026-04-08T06:29:12.931381
-# Source: netpatch/groups_for_netpatch_firewall
-
-payload:
-  - IP-CIDR,41.242.116.0/22

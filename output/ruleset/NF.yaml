@@ -1,7 +1,0 @@
-# NF
-# Generated: 2026-04-08T06:29:12.884010
-# Source: netpatch/groups_for_netpatch_firewall
-
-payload:
-  - IP-CIDR,103.43.204.0/23
-  - IP-CIDR,203.142.221.0/24

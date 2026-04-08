@@ -1,7 +1,0 @@
-# NU
-# Generated: 2026-04-08T06:29:12.887023
-# Source: netpatch/groups_for_netpatch_firewall
-
-payload:
-  - IP-CIDR,49.156.48.0/22
-  - IP-CIDR,202.59.4.0/22

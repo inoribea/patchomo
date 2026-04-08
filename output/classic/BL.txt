@@ -1,8 +1,0 @@
-# BL
-# Generated: 2026-04-08T06:29:12.837226
-# Source: netpatch/groups_for_netpatch_firewall
-
-# IP CIDRs
-IP-CIDR,23.135.232.0/24
-IP-CIDR,149.112.20.0/24
-IP-CIDR,206.83.45.0/24
