@@ -1,5 +1,7 @@
 # Patchomo
 
+[简体中文](README_ZH.md) | English
+
 > NetPatch Firewall Groups → Clash Rule Provider Converter
 
 Automatically converts [NetPatch Firewall](https://github.com/netpatch/groups_for_netpatch_firewall) group rules to Clash rule-provider format with daily updates.

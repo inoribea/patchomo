@@ -1,5 +1,7 @@
 # Patchomo
 
+简体中文 | [English](README.md)
+
 > NetPatch Firewall Groups → Clash 规则集转换器
 
 自动抓取 [NetPatch Firewall](https://github.com/netpatch/groups_for_netpatch_firewall) 分组规则，转换为 Clash rule-provider 格式，每日自动更新。
