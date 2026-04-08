@@ -1,0 +1,97 @@
+name: Update and Release Rulesets
+
+on:
+  schedule:
+    # Run daily at 00:00 UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch:  # Allow manual trigger
+  push:
+    paths:
+      - 'scripts/convert.py'
+      - '.github/workflows/update.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Run conversion script
+        run: |
+          cd scripts
+          python convert.py
+      
+      - name: Get date for release
+        id: date
+        run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+      
+      - name: Create release archive
+        run: |
+          cd output
+          tar -czvf rulesets-${{ steps.date.outputs.date }}.tar.gz ruleset/ classic/ INDEX.md
+          zip -r rulesets-${{ steps.date.outputs.date }}.zip ruleset/ classic/ INDEX.md
+      
+      - name: Generate summary
+        id: summary
+        run: |
+          echo "## Ruleset Update Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Domain Rulesets" >> $GITHUB_STEP_SUMMARY
+          ls -1 output/ruleset/*.yaml 2>/dev/null | grep -E "(amt|bdc)" | while read f; do
+            name=$(basename "$f" .yaml)
+            count=$(grep -c "DOMAIN-SUFFIX" "$f" 2>/dev/null || echo "0")
+            echo "- **${name}**: ${count} rules" >> $GITHUB_STEP_SUMMARY
+          done
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Country IP Rulesets" >> $GITHUB_STEP_SUMMARY
+          echo "Total: $(ls -1 output/ruleset/*.yaml 2>/dev/null | wc -l) rulesets" >> $GITHUB_STEP_SUMMARY
+          
+          # Get stats for release notes
+          echo "domain_count=$(ls -1 output/ruleset/*.yaml 2>/dev/null | grep -E "(amt|bdc)" | wc -l)" >> $GITHUB_OUTPUT
+          echo "country_count=$(ls -1 output/ruleset/*.yaml 2>/dev/null | grep -v -E "(amt|bdc)" | wc -l)" >> $GITHUB_OUTPUT
+      
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: v${{ steps.date.outputs.date }}
+          name: Rulesets ${{ steps.date.outputs.date }}
+          body: |
+            ## 📦 Ruleset Update
+            
+            **Generated:** ${{ steps.date.outputs.date }}
+            
+            ### 📊 Statistics
+            - **Domain Rulesets:** ${{ steps.summary.outputs.domain_count }}
+            - **Country IP Rulesets:** ${{ steps.summary.outputs.country_count }}
+            
+            ### 📥 Downloads
+            - `rulesets-${{ steps.date.outputs.date }}.tar.gz` - Tarball archive
+            - `rulesets-${{ steps.date.outputs.date }}.zip` - ZIP archive
+            
+            ### 📋 Usage
+            See [README.md](README.md) for usage instructions.
+          files: |
+            output/rulesets-${{ steps.date.outputs.date }}.tar.gz
+            output/rulesets-${{ steps.date.outputs.date }}.zip
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Commit and push changes
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add output/
+          git commit -m "chore: update rulesets ${{ steps.date.outputs.date }}" || echo "No changes to commit"
+          git push
