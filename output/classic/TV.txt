@@ -1,0 +1,7 @@
+# TV
+# Generated: 2026-04-08T06:29:12.906369
+# Source: netpatch/groups_for_netpatch_firewall
+
+# IP CIDRs
+IP-CIDR,202.2.96.0/20
+IP-CIDR,202.2.112.0/20

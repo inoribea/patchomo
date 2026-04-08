@@ -1,0 +1,6 @@
+# ER
+# Generated: 2026-04-08T06:29:12.854509
+# Source: netpatch/groups_for_netpatch_firewall
+
+# IP CIDRs
+IP-CIDR,196.200.96.0/20
