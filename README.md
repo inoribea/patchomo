@@ -4,6 +4,20 @@
 
 自动抓取 [NetPatch Firewall](https://github.com/netpatch/groups_for_netpatch_firewall) 分组规则，并定期转换为 Clash 规则集格式。
 
+## ⚠️ 免责声明
+
+> [!CAUTION]
+> **禁止违规传播**
+> 
+> 禁止任何形式的转载或发布至 🇨🇳 中国大陆境内的任何公共平台。
+> <br>Any form of reprinting or posting to the 🇨🇳 mainland platform is prohibited.
+
+> [!WARNING]
+> **合规使用警告**
+> 
+> 本项目仅供技术交流与学习，中国大陆用户请严格遵守《中华人民共和国网络安全法》及相关法律法规。
+> <br>Mainland China users please abide by the laws and regulations of your country.
+
 ## 功能特性
 
 - 🔄 **自动更新** - GitHub Actions 每日自动同步
