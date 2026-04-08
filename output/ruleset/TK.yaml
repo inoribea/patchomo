@@ -1,0 +1,10 @@
+# TK
+# Generated: 2026-04-08T06:29:12.904312
+# Source: netpatch/groups_for_netpatch_firewall
+
+payload:
+  - IP-CIDR,27.96.24.0/21
+  - IP-CIDR,194.0.38.0/24
+  - IP-CIDR,194.0.39.0/24
+  - IP-CIDR,194.0.40.0/24
+  - IP-CIDR,194.0.41.0/24

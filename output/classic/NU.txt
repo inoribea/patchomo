@@ -1,0 +1,7 @@
+# NU
+# Generated: 2026-04-08T06:29:12.887043
+# Source: netpatch/groups_for_netpatch_firewall
+
+# IP CIDRs
+IP-CIDR,49.156.48.0/22
+IP-CIDR,202.59.4.0/22

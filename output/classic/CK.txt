@@ -1,0 +1,7 @@
+# CK
+# Generated: 2026-04-08T06:29:12.845551
+# Source: netpatch/groups_for_netpatch_firewall
+
+# IP CIDRs
+IP-CIDR,116.199.200.0/23
+IP-CIDR,202.65.32.0/19

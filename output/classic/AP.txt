@@ -1,0 +1,8 @@
+# AP
+# Generated: 2026-04-08T06:29:12.831008
+# Source: netpatch/groups_for_netpatch_firewall
+
+# IP CIDRs
+IP-CIDR,103.71.56.0/24
+IP-CIDR,103.248.249.0/24
+IP-CIDR,202.56.62.0/23

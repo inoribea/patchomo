@@ -1,0 +1,7 @@
+# IO
+# Generated: 2026-04-08T06:29:12.869591
+# Source: netpatch/groups_for_netpatch_firewall
+
+# IP CIDRs
+IP-CIDR,202.44.112.0/22
+IP-CIDR,203.83.48.0/21

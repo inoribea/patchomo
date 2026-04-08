@@ -1,0 +1,9 @@
+# VA
+# Generated: 2026-04-08T06:29:12.928677
+# Source: netpatch/groups_for_netpatch_firewall
+
+payload:
+  - IP-CIDR,185.17.220.0/22
+  - IP-CIDR,185.152.68.0/22
+  - IP-CIDR,193.43.102.0/23
+  - IP-CIDR,212.77.0.0/19

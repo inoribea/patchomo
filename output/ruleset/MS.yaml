@@ -1,0 +1,7 @@
+# MS
+# Generated: 2026-04-08T06:29:12.881544
+# Source: netpatch/groups_for_netpatch_firewall
+
+payload:
+  - IP-CIDR,199.7.90.0/24
+  - IP-CIDR,208.90.112.0/22
