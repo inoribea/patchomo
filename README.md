@@ -121,7 +121,3 @@ python scripts/convert.py
 ## Acknowledgments
 
 - [NetPatch](https://github.com/netpatch) - Original data source
-
----
-
-[中文文档](README_ZH.md)
