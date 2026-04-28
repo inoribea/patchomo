@@ -1,5 +1,5 @@
 # JP
-# Generated: 2026-04-27T03:27:45.483085
+# Generated: 2026-04-28T03:33:13.094172
 # Source: netpatch/groups_for_netpatch_firewall
 
 # IP CIDRs
