@@ -1,5 +1,5 @@
 # NZ
-# Generated: 2026-05-09T03:25:41.702601
+# Generated: 2026-05-10T03:38:24.038401
 # Source: netpatch/groups_for_netpatch_firewall
 
 # IP CIDRs
