@@ -1,5 +1,5 @@
 # bdc
-# Generated: 2026-05-12T03:35:04.061611
+# Generated: 2026-05-13T03:42:37.228328
 # Source: netpatch/groups_for_netpatch_firewall
 
 # Domains
