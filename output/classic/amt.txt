@@ -1,5 +1,5 @@
 # amt
-# Generated: 2026-05-18T03:59:55.183051
+# Generated: 2026-05-19T03:53:42.483441
 # Source: netpatch/groups_for_netpatch_firewall
 
 # Domains
