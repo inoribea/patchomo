@@ -1,5 +1,5 @@
 # UY
-# Generated: 2026-05-26T03:54:13.257784
+# Generated: 2026-05-27T04:08:27.665576
 # Source: netpatch/groups_for_netpatch_firewall
 
 # IP CIDRs
