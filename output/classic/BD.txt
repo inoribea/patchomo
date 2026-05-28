@@ -1,5 +1,5 @@
 # BD
-# Generated: 2026-05-27T04:08:27.550690
+# Generated: 2026-05-28T03:56:23.665559
 # Source: netpatch/groups_for_netpatch_firewall
 
 # IP CIDRs
