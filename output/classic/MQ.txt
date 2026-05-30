@@ -1,5 +1,5 @@
 # MQ
-# Generated: 2026-05-29T03:57:57.771854
+# Generated: 2026-05-30T03:42:43.528520
 # Source: netpatch/groups_for_netpatch_firewall
 
 # IP CIDRs
