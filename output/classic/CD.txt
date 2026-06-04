@@ -1,5 +1,5 @@
 # CD
-# Generated: 2026-06-03T04:27:17.564779
+# Generated: 2026-06-04T04:22:06.063192
 # Source: netpatch/groups_for_netpatch_firewall
 
 # IP CIDRs
