@@ -1,5 +1,5 @@
 # GB
-# Generated: 2026-06-08T04:19:58.601658
+# Generated: 2026-06-09T03:51:22.527954
 # Source: netpatch/groups_for_netpatch_firewall
 
 # IP CIDRs
