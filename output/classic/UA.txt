@@ -1,5 +1,5 @@
 # UA
-# Generated: 2026-06-09T03:51:22.581936
+# Generated: 2026-06-10T04:02:15.484841
 # Source: netpatch/groups_for_netpatch_firewall
 
 # IP CIDRs
