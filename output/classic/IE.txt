@@ -1,5 +1,5 @@
 # IE
-# Generated: 2026-06-11T04:16:36.395883
+# Generated: 2026-06-12T04:19:05.471616
 # Source: netpatch/groups_for_netpatch_firewall
 
 # IP CIDRs
