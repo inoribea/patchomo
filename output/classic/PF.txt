@@ -1,5 +1,5 @@
 # PF
-# Generated: 2026-06-15T04:48:16.237287
+# Generated: 2026-06-16T04:45:24.813155
 # Source: netpatch/groups_for_netpatch_firewall
 
 # IP CIDRs
