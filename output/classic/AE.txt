@@ -1,5 +1,5 @@
 # AE
-# Generated: 2026-06-19T04:45:51.079591
+# Generated: 2026-06-20T03:59:57.680755
 # Source: netpatch/groups_for_netpatch_firewall
 
 # IP CIDRs
