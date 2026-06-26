@@ -1,5 +1,5 @@
 # DJ
-# Generated: 2026-06-25T03:54:36.008711
+# Generated: 2026-06-26T04:01:23.847421
 # Source: netpatch/groups_for_netpatch_firewall
 
 # IP CIDRs
