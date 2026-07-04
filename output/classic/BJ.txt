@@ -1,5 +1,5 @@
 # BJ
-# Generated: 2026-07-03T03:34:46.623476
+# Generated: 2026-07-04T03:27:27.812727
 # Source: netpatch/groups_for_netpatch_firewall
 
 # IP CIDRs
