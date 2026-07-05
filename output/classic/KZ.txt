@@ -1,5 +1,5 @@
 # KZ
-# Generated: 2026-07-04T03:27:27.865355
+# Generated: 2026-07-05T03:43:52.665068
 # Source: netpatch/groups_for_netpatch_firewall
 
 # IP CIDRs
