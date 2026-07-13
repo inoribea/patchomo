@@ -1,5 +1,5 @@
 # TG
-# Generated: 2026-07-12T03:17:37.643804
+# Generated: 2026-07-13T03:20:34.209337
 # Source: netpatch/groups_for_netpatch_firewall
 
 # IP CIDRs
