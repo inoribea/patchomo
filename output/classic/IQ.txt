@@ -1,5 +1,5 @@
 # IQ
-# Generated: 2026-07-19T02:58:40.216398
+# Generated: 2026-07-20T03:28:28.332256
 # Source: netpatch/groups_for_netpatch_firewall
 
 # IP CIDRs
