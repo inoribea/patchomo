@@ -1,5 +1,5 @@
 # SZ
-# Generated: 2026-07-25T02:53:20.632243
+# Generated: 2026-07-26T03:18:21.520558
 # Source: netpatch/groups_for_netpatch_firewall
 
 # IP CIDRs
