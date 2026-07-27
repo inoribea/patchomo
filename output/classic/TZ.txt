@@ -1,5 +1,5 @@
 # TZ
-# Generated: 2026-07-26T03:18:21.525307
+# Generated: 2026-07-27T03:28:20.974677
 # Source: netpatch/groups_for_netpatch_firewall
 
 # IP CIDRs
