@@ -1,5 +1,5 @@
 # AU
-# Generated: 2026-07-28T02:44:31.084547
+# Generated: 2026-07-29T02:52:04.568555
 # Source: netpatch/groups_for_netpatch_firewall
 
 # IP CIDRs
