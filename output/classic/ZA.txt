@@ -1,5 +1,5 @@
 # ZA
-# Generated: 2026-08-14T02:09:48.682618
+# Generated: 2026-08-15T01:23:14.686055
 # Source: netpatch/groups_for_netpatch_firewall
 
 # IP CIDRs
