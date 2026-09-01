@@ -1,5 +1,5 @@
 # BQ
-# Generated: 2026-08-31T04:32:27.694838
+# Generated: 2026-09-01T04:14:44.125742
 # Source: netpatch/groups_for_netpatch_firewall
 
 # IP CIDRs
