@@ -1,5 +1,5 @@
 # WF
-# Generated: 2026-09-18T03:52:35.406307
+# Generated: 2026-09-19T03:49:04.599733
 # Source: netpatch/groups_for_netpatch_firewall
 
 # IP CIDRs
