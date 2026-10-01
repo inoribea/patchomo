@@ -1,5 +1,5 @@
 # KW
-# Generated: 2026-09-30T04:42:13.102053
+# Generated: 2026-10-01T04:54:59.903834
 # Source: netpatch/groups_for_netpatch_firewall
 
 # IP CIDRs
