@@ -1,5 +1,5 @@
 # AZ
-# Generated: 2026-11-09T05:20:58.504131
+# Generated: 2026-11-10T06:33:43.376127
 # Source: netpatch/groups_for_netpatch_firewall
 
 # IP CIDRs
