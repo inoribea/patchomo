@@ -1,5 +1,5 @@
 # LK
-# Generated: 2026-11-12T06:24:22.016022
+# Generated: 2026-11-13T05:45:29.883127
 # Source: netpatch/groups_for_netpatch_firewall
 
 # IP CIDRs
