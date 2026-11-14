@@ -1,5 +1,5 @@
 # CU
-# Generated: 2026-11-13T05:45:29.830957
+# Generated: 2026-11-14T05:34:43.089405
 # Source: netpatch/groups_for_netpatch_firewall
 
 # IP CIDRs
