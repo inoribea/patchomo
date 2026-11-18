@@ -1,5 +1,5 @@
 # ZM
-# Generated: 2026-11-17T07:09:23.935345
+# Generated: 2026-11-18T06:33:57.241574
 # Source: netpatch/groups_for_netpatch_firewall
 
 # IP CIDRs
