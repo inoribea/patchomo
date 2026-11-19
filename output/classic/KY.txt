@@ -1,5 +1,5 @@
 # KY
-# Generated: 2026-11-18T06:33:57.177679
+# Generated: 2026-11-19T06:35:44.737729
 # Source: netpatch/groups_for_netpatch_firewall
 
 # IP CIDRs
