@@ -1,5 +1,5 @@
 # NC
-# Generated: 2026-11-19T06:35:44.753482
+# Generated: 2026-11-22T05:47:06.217182
 # Source: netpatch/groups_for_netpatch_firewall
 
 # IP CIDRs

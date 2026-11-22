@@ -1,5 +1,5 @@
 # HK
-# Generated: 2026-11-19T06:35:44.720375
+# Generated: 2026-11-22T05:47:06.166178
 # Source: netpatch/groups_for_netpatch_firewall
 
 # IP CIDRs
