@@ -1,5 +1,5 @@
 # VU
-# Generated: 2026-11-22T05:47:06.260797
+# Generated: 2026-11-25T07:40:30.777932
 # Source: netpatch/groups_for_netpatch_firewall
 
 # IP CIDRs
