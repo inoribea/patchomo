@@ -1,5 +1,5 @@
 # KM
-# Generated: 2026-11-25T07:40:30.740371
+# Generated: 2026-11-26T07:29:44.321084
 # Source: netpatch/groups_for_netpatch_firewall
 
 # IP CIDRs

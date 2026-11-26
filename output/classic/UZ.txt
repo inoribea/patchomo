@@ -1,5 +1,5 @@
 # UZ
-# Generated: 2026-11-25T07:40:30.777022
+# Generated: 2026-11-26T07:29:44.431311
 # Source: netpatch/groups_for_netpatch_firewall
 
 # IP CIDRs
